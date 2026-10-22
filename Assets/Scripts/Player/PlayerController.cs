@@ -10,6 +10,7 @@ namespace JPO
         public UnityEvent<Vector2> onMove;
         public UnityEvent onAttack;
         public UnityEvent onStopAttack;
+        public UnityEvent onSwitchWorld;
 
         private PlayerInput _pInput;
         private Timer _disabledInputTimer;
@@ -72,6 +73,7 @@ namespace JPO
             _pInput.actions.FindAction("Player/Attack").performed += OnAttackPerformed;
             _pInput.actions.FindAction("Player/Attack").canceled += OnAttackCanceled;
             _pInput.actions.FindAction("Player/Pause").performed += OnPausePerformed;
+            _pInput.actions.FindAction("Player/Switchworld").performed += OnSwitchWorldPerformed;
         }
 
         /// <summary>
@@ -85,6 +87,8 @@ namespace JPO
             _pInput.actions.FindAction("Player/Attack").performed -= OnAttackPerformed;
             _pInput.actions.FindAction("Player/Attack").canceled -= OnAttackCanceled;
             _pInput.actions.FindAction("Player/Pause").performed -= OnPausePerformed;
+            _pInput.actions.FindAction("Player/Switchworld").performed -= OnSwitchWorldPerformed;
+
         }
 
         /// <summary>
@@ -122,6 +126,10 @@ namespace JPO
         private void OnPausePerformed(InputAction.CallbackContext ctx)
         {
             GameManager.Instance.ToggleGamePause();
+        }
+        private void OnSwitchWorldPerformed (InputAction.CallbackContext ctx)
+        {
+            onSwitchWorld?.Invoke();
         }
     }
 }
