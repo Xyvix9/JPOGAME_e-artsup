@@ -255,7 +255,11 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "F\xC9LICITATIONS !\nTU AS FINI TON PROPRE JEU !!<size=60>"
+  m_text: 'CONGRATULATIONS !
+
+    You got out...
+
+    Hopefully in one piece.<size=60>'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: dc027eb519ede9a4591700b20ddc81cb, type: 2}
   m_sharedMaterial: {fileID: -8353236967419667918, guid: dc027eb519ede9a4591700b20ddc81cb, type: 2}
