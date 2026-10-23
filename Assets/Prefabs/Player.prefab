@@ -513,8 +513,8 @@ MonoBehaviour:
   overWorld: {fileID: 0}
   ghostWorld: {fileID: 0}
   rend: {fileID: 4715527703210162421}
-  normalSprite: {fileID: 2037306386, guid: ad67beebfe84cbe499386eca02532213, type: 3}
-  ghostSprite: {fileID: -1690396529, guid: ad67beebfe84cbe499386eca02532213, type: 3}
+  normalSprite: {fileID: -5948183104125477114, guid: 0edcacaf81aa4e54383a1f07b1f5b448, type: 3}
+  ghostSprite: {fileID: 5647526978540818521, guid: 0edcacaf81aa4e54383a1f07b1f5b448, type: 3}
 --- !u!1 &2841172813049367261
 GameObject:
   m_ObjectHideFlags: 0
