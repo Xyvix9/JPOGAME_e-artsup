@@ -80817,7 +80817,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5.0520835
+  orthographic size: 4.3541665
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -81306,9 +81306,7 @@ MonoBehaviour:
   - '...
 
 '
-  - I will guide you out of the forest.
-  - Use F to go in and out of the ghost world.
-  - Good luck, follow the spirits along the way !
+  - You're almost out ! Stay strong...
   disappearAfterDialogue: 1
 --- !u!61 &730034829
 BoxCollider2D:
