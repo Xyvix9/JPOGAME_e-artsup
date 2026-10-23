@@ -16,6 +16,24 @@ MonoBehaviour:
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_TilingRules:
+  - m_Id: 12
+    m_Sprites:
+    - {fileID: 1465408885, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Scroll: {x: 0, y: 0}
+    m_Neighbors: 01000000010000000100000001000000
+    m_NeighborPositions:
+    - {x: 0, y: 1, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    m_RuleTransform: 0
   - m_Id: 0
     m_Sprites:
     - {fileID: 7417109926763897729, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
@@ -54,7 +72,11 @@ MonoBehaviour:
     m_RuleTransform: 0
   - m_Id: 1
     m_Sprites:
+<<<<<<< Updated upstream
     - {fileID: 1101970712, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
+=======
+    - {fileID: 72384150, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
+>>>>>>> Stashed changes
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
     m_MaxAnimationSpeed: 1
@@ -128,7 +150,11 @@ MonoBehaviour:
     - {x: -1, y: 0, z: 0}
     - {x: 0, y: -1, z: 0}
     m_RuleTransform: 0
+<<<<<<< Updated upstream
   - m_Id: 20
+=======
+  - m_Id: 5
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 335216114, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -139,6 +165,7 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 0200000002000000010000000100000001000000010000000200000002000000
     m_NeighborPositions:
     - {x: -1, y: 1, z: 0}
@@ -151,6 +178,20 @@ MonoBehaviour:
     - {x: 1, y: -1, z: 0}
     m_RuleTransform: 0
   - m_Id: 5
+=======
+    m_Neighbors: 0100000001000000010000000100000002000000020000000200000002000000
+    m_NeighborPositions:
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: 1, y: 1, z: 0}
+    - {x: -1, y: 1, z: 0}
+    - {x: -1, y: -1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 6
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: -450656530, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -161,6 +202,7 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 01000000020000000200000002000000
     m_NeighborPositions:
     - {x: 1, y: 0, z: 0}
@@ -169,6 +211,16 @@ MonoBehaviour:
     - {x: 0, y: 1, z: 0}
     m_RuleTransform: 0
   - m_Id: 6
+=======
+    m_Neighbors: 02000000010000000200000002000000
+    m_NeighborPositions:
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 7
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 541937771, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -186,7 +238,11 @@ MonoBehaviour:
     - {x: 0, y: 1, z: 0}
     - {x: 0, y: -1, z: 0}
     m_RuleTransform: 0
+<<<<<<< Updated upstream
   - m_Id: 7
+=======
+  - m_Id: 8
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 1086146791, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -201,10 +257,17 @@ MonoBehaviour:
     m_NeighborPositions:
     - {x: 0, y: -1, z: 0}
     - {x: 0, y: 1, z: 0}
+<<<<<<< Updated upstream
     - {x: -1, y: 0, z: 0}
     - {x: 1, y: 0, z: 0}
     m_RuleTransform: 0
   - m_Id: 8
+=======
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 0, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 9
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 1282663707, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -222,6 +285,7 @@ MonoBehaviour:
     - {x: -1, y: 0, z: 0}
     - {x: 1, y: 0, z: 0}
     m_RuleTransform: 0
+<<<<<<< Updated upstream
   - m_Id: 9
     m_Sprites:
     - {fileID: -1778486861, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
@@ -240,6 +304,8 @@ MonoBehaviour:
     - {x: 0, y: -1, z: 0}
     - {x: -1, y: 0, z: 0}
     m_RuleTransform: 0
+=======
+>>>>>>> Stashed changes
   - m_Id: 10
     m_Sprites:
     - {fileID: -2568327655084356147, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
@@ -251,15 +317,44 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 01000000020000000100000002000000
     m_NeighborPositions:
     - {x: 0, y: 1, z: 0}
     - {x: -1, y: 0, z: 0}
     - {x: 0, y: -1, z: 0}
+=======
+    m_Neighbors: 01000000010000000200000002000000
+    m_NeighborPositions:
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+>>>>>>> Stashed changes
     - {x: 1, y: 0, z: 0}
     m_RuleTransform: 0
   - m_Id: 11
     m_Sprites:
+<<<<<<< Updated upstream
+=======
+    - {fileID: -1778486861, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
+    m_GameObject: {fileID: 0}
+    m_MinAnimationSpeed: 1
+    m_MaxAnimationSpeed: 1
+    m_PerlinScale: 0.5
+    m_Output: 0
+    m_ColliderType: 1
+    m_RandomTransform: 0
+    m_Scroll: {x: 0, y: 0}
+    m_Neighbors: 01000000010000000200000002000000
+    m_NeighborPositions:
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 13
+    m_Sprites:
+>>>>>>> Stashed changes
     - {fileID: 72384150, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
     m_MinAnimationSpeed: 1
@@ -269,6 +364,7 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 0200000001000000020000000100000001000000
     m_NeighborPositions:
     - {x: 0, y: 1, z: 0}
@@ -278,6 +374,17 @@ MonoBehaviour:
     - {x: 1, y: -1, z: 0}
     m_RuleTransform: 0
   - m_Id: 12
+=======
+    m_Neighbors: 0100000001000000010000000200000002000000
+    m_NeighborPositions:
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: 1, y: -1, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 14
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 180838468, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -288,6 +395,7 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 02000000010000000100000001000000
     m_NeighborPositions:
     - {x: 0, y: 1, z: 0}
@@ -296,6 +404,16 @@ MonoBehaviour:
     - {x: 1, y: 0, z: 0}
     m_RuleTransform: 0
   - m_Id: 13
+=======
+    m_Neighbors: 01000000010000000100000002000000
+    m_NeighborPositions:
+    - {x: 0, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 15
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: -1445014900, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -306,6 +424,7 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 0200000002000000010000000100000001000000
     m_NeighborPositions:
     - {x: 0, y: 1, z: 0}
@@ -315,6 +434,17 @@ MonoBehaviour:
     - {x: -1, y: -1, z: 0}
     m_RuleTransform: 0
   - m_Id: 14
+=======
+    m_Neighbors: 0100000001000000010000000200000002000000
+    m_NeighborPositions:
+    - {x: -1, y: 0, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: -1, y: -1, z: 0}
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 16
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 881522788, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -325,6 +455,7 @@ MonoBehaviour:
     m_ColliderType: 1
     m_RandomTransform: 0
     m_Scroll: {x: 0, y: 0}
+<<<<<<< Updated upstream
     m_Neighbors: 01000000010000000200000001000000
     m_NeighborPositions:
     - {x: 0, y: 1, z: 0}
@@ -333,6 +464,16 @@ MonoBehaviour:
     - {x: 0, y: -1, z: 0}
     m_RuleTransform: 0
   - m_Id: 15
+=======
+    m_Neighbors: 01000000010000000100000002000000
+    m_NeighborPositions:
+    - {x: 1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+    - {x: 0, y: -1, z: 0}
+    - {x: -1, y: 0, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 17
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: -663249549, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -350,7 +491,11 @@ MonoBehaviour:
     - {x: 0, y: -1, z: 0}
     - {x: 1, y: 0, z: 0}
     m_RuleTransform: 0
+<<<<<<< Updated upstream
   - m_Id: 16
+=======
+  - m_Id: 18
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: -1500777253, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -369,7 +514,11 @@ MonoBehaviour:
     - {x: -1, y: 0, z: 0}
     - {x: 0, y: -1, z: 0}
     m_RuleTransform: 0
+<<<<<<< Updated upstream
   - m_Id: 17
+=======
+  - m_Id: 19
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: 483759805, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -383,11 +532,19 @@ MonoBehaviour:
     m_Neighbors: 01000000010000000100000002000000
     m_NeighborPositions:
     - {x: 0, y: 1, z: 0}
+<<<<<<< Updated upstream
     - {x: -1, y: 0, z: 0}
     - {x: 1, y: 0, z: 0}
     - {x: 0, y: -1, z: 0}
     m_RuleTransform: 0
   - m_Id: 18
+=======
+    - {x: 1, y: 0, z: 0}
+    - {x: -1, y: 0, z: 0}
+    - {x: 0, y: -1, z: 0}
+    m_RuleTransform: 0
+  - m_Id: 20
+>>>>>>> Stashed changes
     m_Sprites:
     - {fileID: -63980082, guid: 05e063d2b0450a647b757a8e4e06a987, type: 3}
     m_GameObject: {fileID: 0}
@@ -401,8 +558,13 @@ MonoBehaviour:
     m_Neighbors: 0100000001000000010000000200000002000000
     m_NeighborPositions:
     - {x: -1, y: 1, z: 0}
+<<<<<<< Updated upstream
     - {x: 0, y: 1, z: 0}
     - {x: -1, y: 0, z: 0}
+=======
+    - {x: -1, y: 0, z: 0}
+    - {x: 0, y: 1, z: 0}
+>>>>>>> Stashed changes
     - {x: 1, y: 0, z: 0}
     - {x: 0, y: -1, z: 0}
     m_RuleTransform: 0

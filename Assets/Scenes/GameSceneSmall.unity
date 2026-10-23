@@ -424,7 +424,11 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 2
+<<<<<<< Updated upstream
       m_TileSpriteIndex: 27
+=======
+      m_TileSpriteIndex: 19
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -434,7 +438,11 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
+<<<<<<< Updated upstream
       m_TileSpriteIndex: 26
+=======
+      m_TileSpriteIndex: 18
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -444,7 +452,11 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 0
+<<<<<<< Updated upstream
       m_TileSpriteIndex: 25
+=======
+      m_TileSpriteIndex: 15
+>>>>>>> Stashed changes
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -482,6 +494,15 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+<<<<<<< Updated upstream
+=======
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+>>>>>>> Stashed changes
   m_TileSpriteArray:
   - m_RefCount: 2
     m_Data: {fileID: -709879713, guid: cbf248cdf40bfb847b7faa91c786f394, type: 3}
@@ -513,6 +534,7 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+<<<<<<< Updated upstream
   - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 0
@@ -533,12 +555,26 @@ Tilemap:
     m_Data: {fileID: 0}
   - m_RefCount: 0
     m_Data: {fileID: 0}
+=======
+>>>>>>> Stashed changes
   - m_RefCount: 1
     m_Data: {fileID: 268265653, guid: cbf248cdf40bfb847b7faa91c786f394, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -1875708807, guid: cbf248cdf40bfb847b7faa91c786f394, type: 3}
   - m_RefCount: 1
     m_Data: {fileID: 453819126, guid: cbf248cdf40bfb847b7faa91c786f394, type: 3}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   m_TileMatrixArray:
   - m_RefCount: 5
     m_Data:
@@ -565,7 +601,11 @@ Tilemap:
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Origin: {x: -39, y: -10, z: 0}
+<<<<<<< Updated upstream
   m_Size: {x: 79, y: 22, z: 1}
+=======
+  m_Size: {x: 84, y: 21, z: 1}
+>>>>>>> Stashed changes
   m_TileAnchor: {x: 0.5, y: 0.5, z: 0}
   m_TileOrientation: 0
   m_TileOrientationMatrix:
@@ -7581,7 +7621,11 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
+<<<<<<< Updated upstream
   orthographic size: 4.9791665
+=======
+  orthographic size: 0
+>>>>>>> Stashed changes
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
