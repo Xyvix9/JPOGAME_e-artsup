@@ -603,7 +603,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fadb0f7c7c1c4dd4ab0af2c359c4142f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::JPO.MainMenuController
-  gameSceneName: GameSceneSmall
+  gameSceneName: Scene1
   buttonsGroup: {fileID: 1800051397}
   blackScreen: {fileID: 1285035714}
   blackScreenFadeDuration: 1
